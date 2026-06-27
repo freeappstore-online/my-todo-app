@@ -1,4 +1,6 @@
-# my-todo-app
+ # my-todo-app
+
+> Platform conventions: see [SKILLS.md](https://raw.githubusercontent.com/freeappstore-online/freeappstore/main/SKILLS.md)
 
 A free app on FreeAppStore.
 
