@@ -1,10 +1,19 @@
 {
   "name": "my-todo-app",
   "private": true,
-  "packageManager": "pnpm@9.15.4",
-  "engines": { "node": ">=22" },
-  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
-  "repository": { "type": "git", "url": "git+https://github.com/freeappstore-online/my-todo-app.git" },
+  "packageManager": "pnpm@10.30.3",
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeappstore-online/my-todo-app.git"
+  },
   "scripts": {
     "dev": "pnpm --filter @my-todo-app/web dev",
     "build": "pnpm --filter @my-todo-app/web build",
